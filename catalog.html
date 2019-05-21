@@ -43,12 +43,59 @@
 
       <h2 class="page-title">ПЕРФОРАТОРЫ</h2>
       <section class="filters">
-        <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+        <h2 class="Filter">Фильтр</h2>
+        <form action="http://echo.htmlacademy.ru">
+          <fieldset>
+          <legend>ЦЕНА:</legend>
+            <input type="range" name="price" aria-label="Цена">
+          <span>0</span><span>30000</span>
+          </fieldset>
+
+          <fieldset>
+          <legend>Производители:</legend>
+          <label>
+            BOSCH
+            <input type="checkbox" name="manufacturer" checked>
+          </label>
+          <label>
+            Интерскол
+            <input type="checkbox" name="manufacturer">
+          </label>
+          <label>
+            MAKITA
+            <input type="checkbox" name="manufacturer" checked>
+          </label>
+          <label>
+            DEWALT
+            <input type="checkbox" name="manufacturer">
+          </label>
+          <label>
+            HITACHI
+            <input type="checkbox" name="manufacturer">
+          </label>
+          </fieldset>
+
+          <fieldset>
+          <legend>Питание:</legend>
+          <input type="radio" name="nutrition" checked>
+          <input type="radio" name="nutrition">
+          </fieldset>
+
+          <button>ПОКАЗАТЬ</button>
+        </form>
+      </section>
+
+      <section class="sorting">
+       <h2>Сортровка:</h2>
+        <a href="#">ПО ЦЕНЕ</a>
+        <a href="#">ПО ТИПУ</a>
+        <a href="#">ПО ФУНКЦИАЛУ</a>
+        <a href="#" aria-label="Сортировка по убыванию"></a>
+        <a href="#" aria-label="Сортировка по возрастанию"></a>
       </section>
 
       <section class="catalog">
-        <h3 class="visually-hidden">Список ПЕРФОРАТОРОВ</h3>
+        <h2 class="visually-hidden">Список ПЕРФОРАТОРОВ</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
             <h3>
@@ -190,11 +237,28 @@
             </p>
             <p class="catalog-item-price">12500P.</p>
           </li>
-
-
+        </ul>
+        <ul>
+          <li>
+            <a>1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">СЛЕДУЮЩАЯ</a>
+          </li>
         </ul>
       </section>
-      
+
+      <section class="about_perforator">
+       <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
+        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+      </section>
+
     </main>
     <footer>
      <a class="logo" href="index.html"><img src="logo.svg" alt="Логотип"></a>
@@ -205,10 +269,10 @@
             <li class="item"><a href="#">Доставка</a></li>
             <li class="item"><a href="#">Контакты</a></li>
         </ul>
-        <p class="footer__contacts">
+        <address class="footer__contacts">
         г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         +7 (812) 555-05-55
-        </p>
+        </address>
         <ul class="items2">
             <li class="item"><a href="#">Материалы</a></li>
             <li class="item"><a href="#">Техника</a></li>
@@ -229,7 +293,7 @@
         </p>
 
       </footer>
-      
+
       <section class="popup_checkout">
         <h2 class="visually-hidden">Оформление заказа</h2>
         <b>Товар добавлен в корзину!</b>
@@ -237,6 +301,6 @@
         <button type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
         <button type="button" aria-label="Закрыть"></button>
       </section>
-      
+
       </body>
 </html>
