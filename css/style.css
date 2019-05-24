@@ -6,7 +6,7 @@ body {
 }
 
 .redefinition{
-  font-family: "PTSans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   color: #000000;
 }
@@ -35,6 +35,7 @@ a {
   font-size: 16px;
   font-style: italic;
   line-height: 1.44;
+  font-weight: normal;
 }
 
 .header .number {
@@ -78,13 +79,17 @@ a {
   color: #ffffff;
 }
 
+.popular-goods > a:last-child {
+  background-color: #ee3643;
+}
+
 .catalog-item {
-  font-family: "PTSans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-  .catalog-item a[href="catalog-item.html"] {
+  .drill-name {
   font-size: 18px;
   line-height: 1.11;
   color: black;
@@ -99,6 +104,7 @@ a {
   font-size: 30px;
   color: #32425c;
   background-color: #f9f5f0;
+  font-weight: normal;
 }
 
 .checkout a {
@@ -110,12 +116,13 @@ a {
 .services h2 {
   font-size: 30px;
   color: black;
+  font-weight: normal;
 }
 
 .contacts p,
 .about-us p,
 .services p {
-  font-family: "PTSans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 1.85;
   color: black;
@@ -124,6 +131,7 @@ a {
 .services h3 {
   font-size: 36px;
   color: #32425c;
+  font-weight: normal;
 }
 
 .services button {
@@ -136,6 +144,12 @@ a {
 .services button:focus,
 .services button:hover {
   background-color: #293449;
+}
+
+.background {
+  background-image: url(../img/slider-2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .services button:active {
@@ -157,6 +171,7 @@ a {
   font-size: 18px;
   color: #f3f7f9;
   line-height: 1.33;
+  font-style: normal;
 }
 
 .footer-nav2 a {
@@ -403,6 +418,7 @@ a {
   font-size: 30px;
   color: #32425c;
   background-color: #f2f6f8;
+  font-weight: normal;
 }
 
 .filters legend {
