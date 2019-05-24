@@ -1,0 +1,504 @@
+body {
+  margin: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.redefinition{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.header h1 {
+  color: #ee3643;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.44;
+  font-weight: normal;
+}
+
+.header .number {
+  font-size: 21px;
+  color: #ee3643;
+}
+
+.header .address {
+  font-size: 14px;
+  color: #32425c;
+}
+
+.output a {
+  font-size: 21px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.output a:focus,
+.output a:hover {
+  color: #ee3643;
+}
+
+.output a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.advantages h3,
+.buy h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.popular-goods > a,
+.contacts a,
+.about-us a,
+.popular-manufacturers > a,
+.advantages a,
+.buy a {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.popular-goods > a:last-child {
+  background-color: #ee3643;
+}
+
+.catalog-item {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+  .drill-name {
+  font-size: 18px;
+  line-height: 1.11;
+  color: black;
+}
+
+.catalog-item:not(:last-child) p:nth-last-child(2) {
+  color: #a9a9a9;
+}
+
+.popular-manufacturers h2,
+.popular-goods h2 {
+  font-size: 30px;
+  color: #32425c;
+  background-color: #f9f5f0;
+  font-weight: normal;
+}
+
+.checkout a {
+  background-color: #63a63e;
+}
+
+.contacts h2,
+.about-us h2,
+.services h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: normal;
+}
+
+.contacts p,
+.about-us p,
+.services p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.85;
+  color: black;
+}
+
+.services h3 {
+  font-size: 36px;
+  color: #32425c;
+  font-weight: normal;
+}
+
+.services button {
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.services button:focus,
+.services button:hover {
+  background-color: #293449;
+}
+
+.background {
+  background-image: url(../img/slider-2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.services button:active {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.about-us li {
+  font-size: 18px;
+  color: black;
+}
+
+.footer-nav1 a{
+  font-size: 18px;
+  color: #f1f5f7;
+}
+
+.footer address {
+  font-size: 18px;
+  color: #f3f7f9;
+  line-height: 1.33;
+  font-style: normal;
+}
+
+.footer-nav2 a {
+  font-size: 18px;
+  color: #ffda96;
+}
+
+.footer p:first-of-type {
+  font-size: 16px;
+  line-height: 1.13;
+}
+
+.htmlacademy,
+.mail {
+ font-size: 16px;
+  line-height: 1.13;
+}
+
+.htmlacademy a,
+.mail a {
+  color: #ffd180;
+}
+
+.popup-map,
+.popup_checkout,
+.popup_map,
+.popup-help {
+  display: none;
+}
+
+.items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  font: inherit;
+  text-align: center;
+  border: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.header-top {
+  background-color: #293449;
+}
+
+.header-top input[type="search"] {
+  background-color: transparent;
+  border: none;
+}
+
+.header-buttom {
+  background-color: #f4f7f9;
+}
+
+.nav {
+  background-color: #32425c;
+}
+
+.buy-advantages {
+  background-color: #ffffff;
+}
+
+.buy li:nth-of-type(1){
+  background-color: #ffbf47;
+}
+
+.buy li:nth-of-type(2){
+  background-color: #3bbce3;
+}
+
+.buy li:nth-of-type(3){
+  background-color: #dc91d8;
+}
+
+.buy li:nth-of-type(4){
+  background-color: burlywood;
+}
+
+.advantages li:nth-of-type(1){
+  background-color: #8ed78f;
+}
+
+.advantages li:nth-of-type(2){
+  background-color: #ffc047;
+}
+
+.buy a:not(.open-catalog) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.buy-advantages a:not(.open-catalog):focus,
+.buy-advantages a:not(.open-catalog):hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.buy-advantages a:not(.open-catalog):active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.open-catalog,
+.logo,
+.bout-us-contacts a,
+.popular-manufacturers > a,
+.catalog-item-price {
+  background-color: #ee3643;
+}
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.about-us-contacts {
+  background-color: #ffffff;
+}
+
+.footer-top {
+  background-color: #32425c;
+}
+
+.footer-buttom {
+  background-color: #293449;
+}
+
+.open-catalog:focus,
+.open-catalog:hover,
+.header .logo:focus,
+.header .logo:hover {
+  background-color: #ca2c37;
+}
+
+.open-catalog:active,
+.header .logo:active {
+  background-color: #ba2732;
+}
+
+.checkout a:focus,
+.checkout a:hover {
+  background-color: #5fbb2d;
+}
+
+.checkout a:active {
+  background-color: #518534;
+}
+
+.search label:focus,
+.search label:hover {
+  background-color: #212a3a;
+}
+
+.bookmarks a:focus,
+.bookmarks a:hover {
+  background-color: #212a3a;
+}
+
+.bookmarks a:active {
+  background-color: #161d29;
+}
+
+.basket a:focus,
+.basket a:hover {
+  background-color: #212a3a;
+}
+
+.basket a:active {
+  background-color: #161d29;
+}
+
+.nav a:focus,
+.nav a:hover {
+  background-color: #293449;
+}
+
+.nav a:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.popular-manufacturers a:focus,
+.popular-manufacturers a:hover {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-manufacturers a:active {
+  opacity: 0.3;
+  box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.footer-nav1 a:focus,
+.footer-nav2 a:focus,
+.footer-nav1 a:hover,
+.footer-nav2 a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav1 a:active {
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration: none;
+}
+
+.footer-nav2 a:active {
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration: none;
+}
+
+.social-network a:focus,
+.social-network a:active, {
+ background-color: #ee3643;
+}
+
+.htmlacademy a:focus,
+.mail a:focus,
+.htmlacademy a:hover,
+.mail a:hover {
+  text-decoration: underline;
+}
+
+.htmlacademy a:active,
+.mail a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+/* СТИЛИЯ ДЛЯ СТРАНИЦЫ КАТАЛОГ */
+
+.user {
+  color: #000000;
+  font-size: 21px;
+}
+
+.header-items a {
+  font-size: 16px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.page-title {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  color: #32425c;
+  background-color: #f2f6f8;
+  font-weight: normal;
+}
+
+.filters legend {
+  font-size: 17px;
+  font-weight: bold;
+ }
+
+.filters fieldset {
+  border: none;
+  border-bottom: 2px solid #f7f3ec;
+}
+
+.filters span {
+  font-size: 17px;
+  background-color: #f7f3ec;
+}
+
+.filters label {
+  font-size: 15px;
+}
+
+.filters button {
+  font: inherit;
+}
+
+.sorting a {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #ee3643;
+}
+
+.catalog-item-price,
+.catalog-item-price-stock {
+  font-size: 17px;
+}
+
+.catalog-item-price {
+  color: #ffffff;
+}
+
+.catalog-item-image .button{
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.catalog-item-image a:last-of-type {
+  font-size: 14px;
+  color: #32425c;
+}
+
+.pagination-item1 a{
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.about_perforator h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.filter {
+  background-color: #f7f3ec;
+}
+
+.sorting {
+  background-color: #f7f3ec;
+}
+
+.about_perforator {
+  background-color: #f4f7f9;
+}
+
+.catalog-item-price-stock {
+  text-decoration:line-through
+}
+
+.pagination,
+.breadcrumbs,
+.catalog-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
