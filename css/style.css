@@ -9,6 +9,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   color: #000000;
+  padding-top: 25px;
 }
 
 a {
@@ -31,6 +32,7 @@ a {
 }
 
 .header h1 {
+  width: 195px;
   color: #ee3643;
   font-size: 16px;
   font-style: italic;
@@ -172,6 +174,7 @@ a {
   color: #f3f7f9;
   line-height: 1.33;
   font-style: normal;
+  width: 325px;
 }
 
 .footer-nav2 a {
@@ -187,7 +190,7 @@ a {
 .htmlacademy,
 .mail {
  font-size: 16px;
-  line-height: 1.13;
+  line-height: 1.13; 
 }
 
 .htmlacademy a,
@@ -229,10 +232,12 @@ a {
 
 .header-buttom {
   background-color: #f4f7f9;
+  padding: 45px 0 60px 0;
 }
 
 .nav {
   background-color: #32425c;
+  min-height: 60px;
 }
 
 .buy-advantages {
@@ -286,6 +291,7 @@ a {
 
 .services {
   background-color: #f4f7f9;
+  padding: 65px 0 99px 0;
 }
 
 .about-us-contacts {
@@ -294,10 +300,17 @@ a {
 
 .footer-top {
   background-color: #32425c;
+  padding-bottom: 50px;
 }
 
 .footer-buttom {
   background-color: #293449;
+  padding: 40px 0 35px 0;
+}
+
+.footer-buttom p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .open-catalog:focus,
@@ -419,6 +432,7 @@ a {
   color: #32425c;
   background-color: #f2f6f8;
   font-weight: normal;
+  padding: 30px 0 32px 30px;
 }
 
 .filters legend {
@@ -442,6 +456,8 @@ a {
 
 .filters button {
   font: inherit;
+  background-color: transparent;
+  border:  1px solid #e5e5e5;
 }
 
 .sorting a {
@@ -477,18 +493,31 @@ a {
 .about_perforator h2 {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
+  margin-top: 0;
 }
 
 .filter {
   background-color: #f7f3ec;
+  font: inherit;
+  margin-top: 0;
 }
 
 .sorting {
   background-color: #f7f3ec;
 }
 
+.sorting h2{
+  display: inline;
+  font: inherit;
+}
+
 .about_perforator {
   background-color: #f4f7f9;
+  padding: 65px 0 70px 0;
+}
+
+.about_perforator p {
+ line-height: 1.85;
 }
 
 .catalog-item-price-stock {
@@ -501,4 +530,172 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+
+
+/*Стилия для сеток*/
+.center-wrapper {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+
+.header-top-flex {
+  display: flex;
+  justify-content: space-between;
+  min-height: 42px;
+}
+
+
+.header-buttom-flex:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 53px;
+  min-height: 158px;
+}
+
+.header-top-flex .col {
+  width: 435px;
+}
+
+header-buttom-flex .col {
+  width: 270px;
+}
+
+.output {
+  width: 280px;
+}
+
+.main {
+  padding: 60px 0 85px 0;
+}
+
+.about-us-contacts-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.footer-top-flex1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-top-flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-buttom-lex {
+   display: flex;
+}
+
+.footer-buttom p:nth-of-type(1){
+  width: 225px;
+}
+
+.social-network {
+  width: 133px;
+  margin-left: auto;
+}
+
+.mail {
+  width: 135px;
+  margin: 0 53px 0 119px;
+}
+
+.htmlacademy {
+  width: 95px;
+}
+
+.footer-nav1 {
+  width: 550px;
+}
+
+.footer-nav2 {
+  width: 525px;
+}
+
+.breadcrumbs-flex {
+  display: flex;
+}
+
+.catalog-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 220px;
+}
+
+.catalog-flex .col {
+ width: 700px; 
+}
+
+.buy-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 409px;
+}
+
+.buy-flex li:not(:last-child) {
+  width: 300px;
+  height: 123px;
+}
+
+.buy-flex li:last-child {
+  width: 620px;
+  min-height: 266px;
+   align-self: flex-end;
+}
+
+.advantages li {
+  width: 300px;
+  height: 123px;
+}
+
+.advantages li:first-of-type {
+margin-bottom: 20px;
+}
+
+.advantages h3 {
+margin: 0;
+}
+
+.advantages {
+  position: absolute;
+  top: 143px;
+  right: 0;
+}
+
+.buy {
+  margin-bottom: 53px;
+}
+
+.popular-manufacturers h2,
+.popular-goods h2 {
+  min-height: 89px;
+}
+
+.popular-goods-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-manufacturers-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 85px;
+}
+
+.services-flex {
+  display: flex;
 }
