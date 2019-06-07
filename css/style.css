@@ -2210,3 +2210,8 @@ header-buttom-flex .col {
 .modal-hide {
   display: none;
 }
+
+.popup-help [placeholder]::placeholder {
+  font-size: 13px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
