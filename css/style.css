@@ -468,8 +468,7 @@ a {
 }
 
 .social-network a:focus,
-.social-network a:active,
-  {
+.social-network a:active {
   background-color: #ee3643;
 }
 
@@ -2206,4 +2205,8 @@ header-buttom-flex .col {
   top: 0;
   width: 100%;
   height: 266px;
+}
+
+.modal-hide {
+  display: none;
 }
