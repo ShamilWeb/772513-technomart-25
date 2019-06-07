@@ -203,8 +203,15 @@ a {
   background-color: #293449;
 }
 
-.background {
+.background1 {
   background-image: url(../img/slider-2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 1;
+}
+
+.background2 {
+  background-image: url(../img/slider-1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -1771,7 +1778,7 @@ header-buttom-flex .col {
 }
 
 .advantages li,
-.buy li:not(.background) {
+.buy li:not(:last-of-type) {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 22px;
@@ -1867,24 +1874,26 @@ header-buttom-flex .col {
   border-radius: 3px;
 }
 
-.background::before {
+.buy-item::before {
   content: " ";
   position: absolute;
   top: 114px;
   left: 25px;
   width: 22px;
   height: 40px;
-  background: url(../img/icon-left.svg)
+  background: url(../img/icon-left.svg);
+  z-index: 2;
 }
 
-.background::after {
+.buy-item::after {
   content: " ";
   position: absolute;
   top: 114px;
   right: 20px;
   width: 22px;
   height: 40px;
-  background: url(../img/icon-right.svg)
+  background: url(../img/icon-right.svg);
+  z-index: 2;
 }
 
 .header-top p {
@@ -2184,4 +2193,17 @@ header-buttom-flex .col {
   width: 468px;
   height: 261px;
   background: url(../img/delivery.png)
+}
+
+.slider1 {
+  position: absolute;
+  width: 100%;
+  height: 266px;
+}
+
+.slider2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 266px;
 }
