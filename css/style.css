@@ -1874,8 +1874,7 @@ header-buttom-flex .col {
   border-radius: 3px;
 }
 
-.buy-item::before {
-  content: " ";
+.button-left {
   position: absolute;
   top: 114px;
   left: 25px;
@@ -1883,10 +1882,10 @@ header-buttom-flex .col {
   height: 40px;
   background: url(../img/icon-left.svg);
   z-index: 2;
+  border: none;
 }
 
-.buy-item::after {
-  content: " ";
+.button-right {
   position: absolute;
   top: 114px;
   right: 20px;
@@ -1894,6 +1893,7 @@ header-buttom-flex .col {
   height: 40px;
   background: url(../img/icon-right.svg);
   z-index: 2;
+  border: none;
 }
 
 .header-top p {
