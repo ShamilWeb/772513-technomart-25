@@ -139,7 +139,7 @@ a {
   display: block;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.21;
+  line-height: 1.11;
   color: black;
 }
 
@@ -153,7 +153,7 @@ a {
   color: #32425c;
   background-color: #f9f5f0;
   font-weight: normal;
-  padding: 25px 0 20px 28px;
+  padding: 27px 0 20px 28px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -185,12 +185,12 @@ a {
   color: #32425c;
   font-weight: normal;
   margin-top: 51px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .services button {
   width: 240px;
-  min-height: 61px;
+  min-height: 62px;
   font-size: 21px;
   font-weight: bold;
   color: #ffffff;
@@ -237,6 +237,8 @@ a {
   line-height: 1.33;
   font-style: normal;
   width: 325px;
+  margin-top: -1px;
+  margin-left: 3px;
 }
 
 .footer-nav2 a {
@@ -504,7 +506,7 @@ a {
   color: #32425c;
   background-color: #f2f6f8;
   font-weight: normal;
-  padding: 25px 0 27px 28px;
+  padding: 27px 0 27px 28px;
   margin-top: 22px;
   margin-bottom: 20px;
 }
@@ -512,7 +514,7 @@ a {
 .filters legend {
   font-size: 17px;
   font-weight: bold;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .filters fieldset {
@@ -533,7 +535,7 @@ a {
   font: inherit;
   background-color: transparent;
   border: 1px solid #e5e5e5;
-  padding: 8px 39px 9px
+  padding: 11px 39px 10px
 }
 
 .sorting a:nth-of-type(-n+3) {
@@ -608,7 +610,7 @@ a {
   min-height: 38px;
   background-color: #f7f3ec;
   padding: 0 17px 0 19px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .sorting h2 {
@@ -618,7 +620,7 @@ a {
 
 .about-perforator {
   background-color: #f4f7f9;
-  padding: 65px 0 70px 0;
+  padding: 63px 0 68px 0;
 }
 
 .about-perforator p {
@@ -698,7 +700,7 @@ header-buttom-flex .col {
 }
 
 .main {
-  padding: 60px 0 85px 0;
+  padding: 60px 0 87px 0;
 }
 
 .about-us-contacts-flex {
@@ -722,7 +724,7 @@ header-buttom-flex .col {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 
 .footer-top-flex2 {
@@ -755,6 +757,7 @@ header-buttom-flex .col {
   justify-content: space-between;
   width: 133px;
   margin-left: auto;
+  margin-top: -2px;
 }
 
 .social-network a {
@@ -1131,6 +1134,7 @@ header-buttom-flex .col {
   justify-content: space-between;
 }
 
+
 .nav-items a {
   display: block;
   height: 60px;
@@ -1214,7 +1218,7 @@ header-buttom-flex .col {
 }
 
 .about-us .items {
-  margin-bottom: 33px;
+  margin-bottom: 36px;
   padding-left: 36px;
 }
 
@@ -1245,7 +1249,7 @@ header-buttom-flex .col {
   display: inline-block;
   margin-top: 37px;
   text-transform: uppercase;
-  padding: 10px 60px 10px 63px;
+  padding: 12px 60px 10px 63px;
 }
 
 .popup-map {
@@ -1501,8 +1505,8 @@ header-buttom-flex .col {
 .fieldset label {
   display: block;
   position: relative;
-  margin-bottom: 20px;
-  padding-left: 30px;
+  margin-bottom: 23px;
+  padding-left: 33px;
 }
 
 .fieldset input {
@@ -1540,7 +1544,7 @@ header-buttom-flex .col {
 }
 
 .fieldset-checkbox {
-  margin-bottom: 20px;
+  margin-bottom: 23px;
 }
 
 .fieldset {
@@ -1549,7 +1553,7 @@ header-buttom-flex .col {
 }
 
 .fieldset-radio {
-  margin-bottom: 60px;
+  margin-bottom: 56px;
 }
 
 .popup-checkout {
@@ -1702,6 +1706,7 @@ header-buttom-flex .col {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
+  margin-bottom: 10px;
 }
 
 .catalog-item p:not(:first-of-type) {
@@ -1794,8 +1799,7 @@ header-buttom-flex .col {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 13px;
-  margin-left: 25px;
+  margin-top: 14px;
   width: 135px;
   height: 38px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -1818,8 +1822,8 @@ header-buttom-flex .col {
 .buy-flex li:nth-of-type(2)::after {
   content: " ";
   position: absolute;
-  top: 32px;
-  right: 30px;
+  top: 33px;
+  right: 28px;
   width: 75px;
   height: 61px;
   background: url(../img/icon-2.svg);
@@ -1950,6 +1954,7 @@ header-buttom-flex .col {
 
 .services h2 {
   margin-top: 0;
+  margin-bottom: 23px;
 }
 
 .services-p1 {
@@ -1973,7 +1978,7 @@ header-buttom-flex .col {
 }
 
 .services-flex button {
-  padding-left: 20px;
+  padding-left: 22px;
 }
 
 .services-flex .col {
@@ -2162,6 +2167,8 @@ header-buttom-flex .col {
   color: #283136;
   border: none;
   background: #f1f1f1;
+  padding-bottom: 5px;
+  box-sizing: border-box;
 }
 
 .max-price {
@@ -2187,7 +2194,8 @@ header-buttom-flex .col {
 .services::after {
   content: " ";
   position: absolute;
-  right: 135px;
+  right: 50%;
+  margin-right: -470px;
   top: 260px;
   width: 468px;
   height: 261px;
@@ -2214,4 +2222,24 @@ header-buttom-flex .col {
 .popup-help [placeholder]::placeholder {
   font-size: 13px;
   font-family: "PT Sans", Arial, sans-serif;
+}
+
+.margin-top5 {
+  margin-top: -5px;
+}
+
+.margin-top8 {
+  margin-top: -8px;
+}
+
+.margin-top15 {
+  margin-top: -15px;
+}
+
+.buy .margin-left25 {
+  margin-left: 25px;
+}
+
+.buy-advantages .margin-left23 {
+  margin-left: 23px;
 }
