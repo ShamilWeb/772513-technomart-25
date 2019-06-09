@@ -552,7 +552,7 @@ a {
 .sorting .red:first-of-type {
   color: #ee3643;
   border-bottom: 1px solid #f7f3ec;
-} 
+}
 
 .catalog-item-price,
 .catalog-item-price-stock {
@@ -1573,11 +1573,11 @@ header-buttom-flex .col {
   left: 0;
   width: 25px;
   height: 25px;
-  background: url(../img/radio-off.svg)
+  background: url(../img/radio-off.svg);
 }
 
 .input-radio:hover + span {
-  background: url(../img/radio-off-hover.svg)
+  background: url(../img/radio-off-hover.svg);
 }
 
 .input-radio[disabled] + span {
@@ -1586,11 +1586,11 @@ header-buttom-flex .col {
 }
 
 .input-radio:checked + span {
-  background: url(../img/radio-on.svg)
+  background: url(../img/radio-on.svg);
 }
 
 .input-radio:checked:hover + span {
-  background: url(../img/radio-on-hover.svg)
+  background: url(../img/radio-on-hover.svg);
 }
 
 .input-radio[disabled]:checked + span {
