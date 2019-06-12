@@ -239,8 +239,8 @@
         <section class="contacts">
           <h2>КОНТАКТЫ</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <img class="map" src="img/map.jpg" width="300" height="158" alt="улица Большая Конюшенная дом 19">
-          <a class="center" href="#">Заблудились? Напишите нам!</a>
+          <a class="open-popup-map" href="#"><img class="map" src="img/map.jpg" width="300" height="158" alt="улица Большая Конюшенная дом 19"></a>
+          <a class="center open-popup-help" href="#">Заблудились? Напишите нам!</a>
         </section>
       </div>
     </div>
@@ -328,12 +328,26 @@
         <button class="btn">ОТПРАВИТЬ</button>
       </div>
     </form>
-    <button class="btn" type="button" aria-label="Закрыть"></button>
+    <button class="btn close-popup-help" type="button" aria-label="Закрыть"></button>
   </section>
   <section class="popup-map modal-hide">
     <h2 class="visually-hidden">Как найти нас</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.9895766177706!2d45.6750473153053!3d43.335407179133476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4051d17fa30ac4b7%3A0xbf6693e2814936a6!2z0JzQvtC30LTQvtC60YHQutCw0Y8g0YPQuy4sINCT0YDQvtC30L3Ri9C5LCDQp9C10YfQtdC90YHQutCw0Y8g0KDQtdGB0L8uLCAzNjQwNjE!5e0!3m2!1sru!2sru!4v1560243312506!5m2!1sru!2sru" width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
     <p><img src="img/map.png" width="940" height="446" alt="улица Большая Конюшенная дом 19"></p>
-    <button class="btn" type="button" aria-label="Закрыть"></button>
+    <button class="btn close-popup-map" type="button" aria-label="Закрыть"></button>
   </section>
+
+  <section class="popup-checkout">
+    <div class="popup-checkout-wrapper1">
+      <h2 class="visually-hidden">Оформление заказа</h2>
+      <span>Товар добавлен в корзину!</span>
+    </div>
+    <div class="popup-checkout-wrapper2">
+      <a href="#">ОФОРМИТЬ ЗАКАЗ</a>
+      <button type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+    </div>
+    <button class="close-popup-checkout" aria-label="Закрыть"></button>
+  </section>
+  <script src="js/script-min.js"></script>
 
 </body></html>

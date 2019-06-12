@@ -1259,7 +1259,7 @@ header-buttom-flex .col {
   margin-bottom: 30px;
 }
 
-.contacts a {
+.contacts a:last-of-type {
   display: inline-block;
   vertical-align: baseline;
   margin-top: 37px;
@@ -1617,14 +1617,15 @@ header-buttom-flex .col {
 
 .popup-checkout {
   display: none;
-  position: absolute;
-  top: 411px;
+  position: fixed;
+  top: 211px;
   left: 450px;
   width: 620px;
   height: 282px;
   background-color: #f1f1f1;
   -webkit-box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
   box-shadow: 0px 20px 40px 0 rgba(41, 52, 73, 0.75);
+  z-index: 30;
 }
 
 .popup-checkout-wrapper1 {
@@ -2301,4 +2302,66 @@ header-buttom-flex .col {
 
 .buy-advantages .margin-left23 {
   margin-left: 23px;
+}
+
+.contacts .open-popup-map {
+  background-color: #ffffff;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0);
+  }
+
+  45% {
+    transform: scale(1);
+  }
+
+  46% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.modal-show {
+  display: block;
+  animation: bounce 1s;
+}
+
+.popup-map img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
