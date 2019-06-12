@@ -80,6 +80,7 @@ a {
   font-weight: bold;
 }
 
+.credit a,
 .popular-goods > a,
 .contacts a,
 .about-us a,
@@ -88,6 +89,17 @@ a {
 .buy a {
   font-size: 14px;
   color: #ffffff;
+}
+
+.credit a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 38px;
+  background: #ff5357;
+  border-radius: 3px;
+  margin-top: 26px;
 }
 
 .popular-goods > a:last-child {
@@ -2040,11 +2052,17 @@ header-buttom-flex .col {
 }
 
 .services-flex .col {
+  position: relative;
+  margin: 0;
   padding-left: 80px;
 }
 
 .services-flex-col-p {
   width: 280px;
+}
+
+.warranty .services-flex-col-p {
+  width: 375px;
 }
 
 .breadcrumbs-flex li:not(:first-of-type) {
@@ -2251,15 +2269,37 @@ header-buttom-flex .col {
   margin-bottom: 20px;
 }
 
-.services::after {
+.delivery::after {
   content: " ";
   position: absolute;
-  right: 50%;
+  right: 36%;
   margin-right: -470px;
-  top: 260px;
+  top: 79px;
   width: 468px;
   height: 261px;
   background: url(../img/delivery.png)
+}
+
+.warranty::after {
+  content: " ";
+  position: absolute;
+  right: 36%;
+  margin-right: -470px;
+  top: 51px;
+  width: 468px;
+  height: 261px;
+  background: url(../img/guarantee.png)
+}
+
+.credit::after {
+  content: " ";
+  position: absolute;
+  right: 36%;
+  margin-right: -470px;
+  top: 51px;
+  width: 468px;
+  height: 261px;
+  background: url(../img/credit.png)
 }
 
 .slider1 {
@@ -2364,4 +2404,21 @@ header-buttom-flex .col {
 
 .modal-error {
   animation: shake 0.6s;
+}
+
+.warranty {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.credit {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.services .bg-white {
+  background-color: #ffffff;
+  color: #32425c;
 }
