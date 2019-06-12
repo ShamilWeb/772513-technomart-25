@@ -92,8 +92,14 @@ a {
 }
 
 .credit a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 195px;
   height: 38px;
@@ -1279,7 +1285,9 @@ header-buttom-flex .col {
   vertical-align: baseline;
   margin-top: 37px;
   text-transform: uppercase;
-  padding: 12px 60px 10px 63px;
+  padding: 12px 0 10px;
+  width: 300px;
+  text-align: center;
 }
 
 .popup-map {
@@ -1822,7 +1830,7 @@ header-buttom-flex .col {
 .catalog-item p:last-of-type::after {
   content: " ";
   position: absolute;
-  top: 1px;
+  top: 0px;
   right: -38px;
   width: 0;
   height: 0;
@@ -2266,6 +2274,7 @@ header-buttom-flex .col {
   border: none;
   background: #f1f1f1;
   padding-bottom: 5px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -2339,6 +2348,21 @@ header-buttom-flex .col {
   display: none;
 }
 
+.popup-help [placeholder]::-webkit-input-placeholder {
+  font-size: 13px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.popup-help [placeholder]:-ms-input-placeholder {
+  font-size: 13px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.popup-help [placeholder]::-ms-input-placeholder {
+  font-size: 13px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
 .popup-help [placeholder]::placeholder {
   font-size: 13px;
   font-family: "PT Sans", Arial, sans-serif;
@@ -2368,20 +2392,47 @@ header-buttom-flex .col {
   background-color: #ffffff;
 }
 
-@keyframes bounce {
+@-webkit-keyframes bounce {
   0% {
+    -webkit-transform: scale(0);
     transform: scale(0);
   }
 
   45% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   46% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  46% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 
@@ -2389,6 +2440,7 @@ header-buttom-flex .col {
 
 .modal-show {
   display: block;
+  -webkit-animation: bounce 1s;
   animation: bounce 1s;
 }
 
@@ -2399,10 +2451,11 @@ header-buttom-flex .col {
   z-index: -1;
 }
 
-@keyframes shake {
+@-webkit-keyframes shake {
 
   0%,
   100% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
@@ -2411,6 +2464,7 @@ header-buttom-flex .col {
   50%,
   70%,
   90% {
+    -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
 
@@ -2418,11 +2472,39 @@ header-buttom-flex .col {
   40%,
   60%,
   80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
 }
 
 .modal-error {
+  -webkit-animation: shake 0.6s;
   animation: shake 0.6s;
 }
 
@@ -2441,4 +2523,9 @@ header-buttom-flex .col {
 .services .bg-white {
   background-color: #ffffff;
   color: #32425c;
+}
+
+.FlexContainerWrapper {
+  display: flex;
+  flex-direction: column;
 }
