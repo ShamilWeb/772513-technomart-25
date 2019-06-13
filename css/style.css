@@ -2541,3 +2541,10 @@ header-buttom-flex .col {
   margin-top: 2px;
   margin-left: 24px;
 }
+
+.icon-home {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  background: url(../img/icon-home.svg);
+}
