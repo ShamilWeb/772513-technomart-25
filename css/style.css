@@ -3,7 +3,8 @@ body {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   color: #ffffff;
-  min-width: 1200px;
+  margin: 0 auto;
+  min-width: 960px;
 }
 
 .redefinition {
@@ -2511,13 +2512,13 @@ header-buttom-flex .col {
 .warranty {
   position: absolute;
   top: 0;
-  opacity: 0;
+  display: none;
 }
 
 .credit {
   position: absolute;
   top: 0;
-  opacity: 0;
+  display: none;
 }
 
 .services .bg-white {
