@@ -223,14 +223,14 @@ a {
 }
 
 .background1 {
-  background-image: url(../img/slider-2.jpg);
+  background-image: url(../img/slider-2.png);
   background-repeat: no-repeat;
   background-position: top center;
   z-index: 1;
 }
 
 .background2 {
-  background-image: url(../img/slider-1.jpg);
+  background-image: url(../img/slider-1.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -2528,4 +2528,15 @@ header-buttom-flex .col {
 .FlexContainerWrapper {
   display: flex;
   flex-direction: column;
+}
+
+.buy-item h3 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.buy-item p {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left: 24px;
 }
